@@ -1,0 +1,33 @@
+#product-details {
+  margin-top: 100px;
+}
+#product-details figure {
+  height: 400px;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 48%;
+}
+figure img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.product-info {
+  width: 48%;
+}
+.product-info .desc {
+  max-height: 145px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.badge {
+  width: 150px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-size: 1rem;
+}

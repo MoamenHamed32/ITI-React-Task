@@ -1,0 +1,20 @@
+nav {
+  width: 80%;
+  margin: 0 auto;
+  position: fixed;
+  top: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 0.5rem 1rem !important;
+}
+.brand {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.navbar-nav {
+  gap: 1rem;
+}
