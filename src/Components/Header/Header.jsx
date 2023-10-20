@@ -23,6 +23,9 @@ export default function Header() {
             <LinkContainer to="/shop">
               <Nav.Link>Shop</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/counter">
+              <Nav.Link>Counter</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>

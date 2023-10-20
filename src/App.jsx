@@ -6,9 +6,9 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Shop from "./Components/Shop/Shop";
 import ProductDetails from "./Components/Product-Details/ProductDetails";
-// import Footer from "./Components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Counter from "./Components/Counter/Counter";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/counter" element={<Counter />} />
         <Route path="/shop/:name/:id" element={<ProductDetails />} />
       </Routes>
     </Router>
