@@ -3,7 +3,6 @@ import Spinner from "react-bootstrap/Spinner";
 import "./Loading.css";
 
 export default function Loading({ loading, error, children }) {
-  console.log(children);
   if (loading) {
     return (
       <div className="container loading-container">

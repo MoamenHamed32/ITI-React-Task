@@ -20,7 +20,6 @@ const useFetchingData = () => {
     };
     getProducts();
   }, []);
-  console.log(products);
   return [products, error, isLoading];
 };
 
