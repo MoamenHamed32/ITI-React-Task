@@ -5,7 +5,6 @@ import Card from "react-bootstrap/Card";
 import "./ProductCard.css";
 import { LinkContainer } from "react-router-bootstrap";
 export default function ProductCard({ product }) {
-  console.log(product);
   return (
     <Card style={{ width: "18rem" }}>
       <figure>
