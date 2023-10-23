@@ -1,0 +1,50 @@
+#register {
+  margin-top: 50px;
+}
+#register .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#register form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 75%;
+}
+
+#register span {
+  font-size: 0.7rem;
+  margin-left: 10px;
+}
+#register button {
+  width: 30%;
+  margin: 20px auto;
+}
+#register input {
+  padding-left: 20px;
+}
+
+#register .not-valid {
+  position: absolute;
+  height: 30px;
+  width: 6px;
+  background-color: #b00000;
+  top: 32px;
+  left: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#register .valid {
+  position: absolute;
+  height: 30px;
+  width: 6px;
+  background-color: #007108;
+  top: 32px;
+  left: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/* #register; */

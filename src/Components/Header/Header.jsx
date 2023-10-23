@@ -26,6 +26,12 @@ export default function Header() {
             <LinkContainer to="/counter">
               <Nav.Link>Counter</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/register">
+              <Nav.Link>Sign Up</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/login">
+              <Nav.Link>Log In</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>
